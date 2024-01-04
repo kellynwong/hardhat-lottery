@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/kellyn/Desktop/hardhat-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1700071361885,
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/contracts/Raffle.sol": {
+      "lastModificationDate": 1701872263856,
       "contentHash": "bbabc30cfc58c5f295ac610f03662ff2",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
@@ -47,91 +47,7 @@
         "Raffle"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol": {
-      "lastModificationDate": 1699294879951,
-      "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
-      "sourceName": "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "VRFConsumerBaseV2"
-      ]
-    },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol": {
-      "lastModificationDate": 1699294879931,
-      "contentHash": "4c0aa4a1199644691c779f07e1fec059",
-      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "VRFCoordinatorV2Interface"
-      ]
-    },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol": {
       "lastModificationDate": 1699294879929,
       "contentHash": "c962c53a75d722542c83859d848edd5b",
       "sourceName": "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol",
@@ -176,7 +92,91 @@
         "AutomationCompatible"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/AutomationBase.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol": {
+      "lastModificationDate": 1699294879951,
+      "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "VRFConsumerBaseV2"
+      ]
+    },
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol": {
+      "lastModificationDate": 1699294879931,
+      "contentHash": "4c0aa4a1199644691c779f07e1fec059",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFCoordinatorV2Interface"
+      ]
+    },
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/AutomationBase.sol": {
       "lastModificationDate": 1699294879929,
       "contentHash": "80067f44d8bddd615599f8d73b9726a5",
       "sourceName": "@chainlink/contracts/src/v0.8/automation/AutomationBase.sol",
@@ -218,7 +218,7 @@
         "AutomationBase"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol": {
       "lastModificationDate": 1699294880227,
       "contentHash": "c52969cee392918edbf23f914e01c0dc",
       "sourceName": "@chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol",
@@ -260,7 +260,7 @@
         "AutomationCompatibleInterface"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol": {
       "lastModificationDate": 1699294879932,
       "contentHash": "1b32d1c8f5a318a9386343e17cbd490b",
       "sourceName": "@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol",
@@ -307,49 +307,7 @@
         "VRFCoordinatorV2Mock"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol": {
-      "lastModificationDate": 1699294880232,
-      "contentHash": "d10c0d716a0f43bb442c14effc9bd39f",
-      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "LinkTokenInterface"
-      ]
-    },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol": {
       "lastModificationDate": 1699294880233,
       "contentHash": "16d64572b0310127fc8a771e63be6d20",
       "sourceName": "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol",
@@ -393,7 +351,49 @@
         "ConfirmedOwner"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1699294880232,
+      "contentHash": "d10c0d716a0f43bb442c14effc9bd39f",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol": {
       "lastModificationDate": 1699294880233,
       "contentHash": "56723eba6ecc747fee92c5ab5b0bbf7f",
       "sourceName": "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol",
@@ -437,7 +437,7 @@
         "ConfirmedOwnerWithProposal"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/IOwnable.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/IOwnable.sol": {
       "lastModificationDate": 1699294880231,
       "contentHash": "b3ae9b7345205a0a65f3e0f89c176d88",
       "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/IOwnable.sol",
@@ -479,7 +479,7 @@
         "IOwnable"
       ]
     },
-    "/Users/kellyn/Desktop/hardhat-lottery/contracts/test/VRFCoordinatorV2Mock.sol": {
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/contracts/test/VRFCoordinatorV2Mock.sol": {
       "lastModificationDate": 1699295861654,
       "contentHash": "d35f0c87c636c5447fe2c350799b2903",
       "sourceName": "contracts/test/VRFCoordinatorV2Mock.sol",
