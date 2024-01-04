@@ -16,7 +16,7 @@ module.exports = async function () {
 
 async function updateAbi() {
     const raffle = await ethers.getContract("Raffle")
-    fs.writeFileSync(FRONT_END_ABI_FILE, JSON.stringify(raffle.interface.format("json")))
+    fs.writeFileSync(FRONT_END_ABI_FILE, raffle.interface.formatJson())
 }
 
 async function updateContractAddresses() {
@@ -24,12 +24,12 @@ async function updateContractAddresses() {
     const chainId = network.config.chainId.toString()
     const currentAddresses = JSON.parse(fs.readFileSync(FRONT_END_ADDRESSES_FILE, "utf8"))
     if (chainId in currentAddresses) {
-        if (!currentAddresses[chainId].includes(raffle.address)) {
-            currentAddresses[chainId].push(raffle.address)
+        if (!currentAddresses[chainId].includes(await raffle.getAddress())) {
+            currentAddresses[chainId].push(await raffle.getAddress())
         }
     }
     {
-        currentAddresses[chainId] = [raffle.address]
+        currentAddresses[chainId] = [await raffle.getAddress()]
     }
     fs.writeFileSync(FRONT_END_ADDRESSES_FILE, JSON.stringify(currentAddresses))
 }
