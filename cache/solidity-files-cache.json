@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1701872263856,
-      "contentHash": "bbabc30cfc58c5f295ac610f03662ff2",
+      "lastModificationDate": 1704730271289,
+      "contentHash": "f21114070ee4522fd894164c2aac0776",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -38,7 +38,8 @@
       "imports": [
         "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol",
         "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
-        "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol"
+        "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol",
+        "hardhat/console.sol"
       ],
       "versionPragmas": [
         "^0.8.7"
@@ -520,6 +521,48 @@
         "^0.8.7"
       ],
       "artifacts": []
+    },
+    "/Users/kellyn/Desktop/hh-fcc/hardhat-lottery/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1699294877638,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
     }
   }
 }

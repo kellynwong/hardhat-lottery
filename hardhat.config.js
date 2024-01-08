@@ -28,6 +28,10 @@ module.exports = {
             url: SEPOLIA_RPC_URL,
             accounts: [PRIVATE_KEY],
         },
+        localhost: {
+            chainId: 31337,
+            blockConfirmations: 1,
+        },
     },
     solidity: "0.8.7",
     mocha: { timeout: 500000 },
